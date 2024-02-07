@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const Hakkao = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+const Hakkao = props => {
+  return (
+    <div>Hakkao</div>
+  )
+}
 
-export default Hakkao;
+Hakkao.propTypes = {}
+
+export default Hakkao
